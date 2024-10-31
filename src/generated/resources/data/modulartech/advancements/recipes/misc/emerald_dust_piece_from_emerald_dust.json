@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_emerald_dust": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:dusts/emerald"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "modulartech:emerald_dust_piece_from_emerald_dust"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_emerald_dust",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "modulartech:emerald_dust_piece_from_emerald_dust"
+    ]
+  },
+  "sends_telemetry_event": false
+}

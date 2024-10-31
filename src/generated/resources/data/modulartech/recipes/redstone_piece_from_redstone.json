@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/redstone"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "modulartech:redstone_piece"
+  }
+}

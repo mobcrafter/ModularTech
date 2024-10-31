@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/diamond"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "modulartech:diamond_dust_piece"
+  }
+}

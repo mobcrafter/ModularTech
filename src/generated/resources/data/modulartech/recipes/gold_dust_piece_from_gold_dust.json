@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/gold"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "modulartech:gold_dust_piece"
+  }
+}

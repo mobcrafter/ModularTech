@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/soul_steel"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "modulartech:soul_steel_dust_piece"
+  }
+}

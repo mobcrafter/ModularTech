@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_charcoal_dust_piece": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "modulartech:charcoal_dust_piece"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "modulartech:charcoal_dust_from_charcoal_dust_piece"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_charcoal_dust_piece",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "modulartech:charcoal_dust_from_charcoal_dust_piece"
+    ]
+  },
+  "sends_telemetry_event": false
+}

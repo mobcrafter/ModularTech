@@ -1,0 +1,35 @@
+{
+  "item.modulartech.soul_steel_ingot": "Soul Steel Ingot",
+  "item.modulartech.soul_steel_nugget": "Soul Steel Nugget",
+
+  "item.modulartech.powdered_ancient_debris": "Powdered Ancient Debris",
+
+  "item.modulartech.coal_dust": "Coal Dust",
+  "item.modulartech.charcoal_dust": "Charcoal Dust",
+  "item.modulartech.iron_dust": "Iron Dust",
+  "item.modulartech.copper_dust": "Copper Dust",
+  "item.modulartech.gold_dust": "Gold Dust",
+  "item.modulartech.netherite_dust": "Netherite Dust",
+  "item.modulartech.emerald_dust": "Emerald Dust",
+  "item.modulartech.lapis_dust": "Lapis Dust",
+  "item.modulartech.diamond_dust": "Diamond Dust",
+  "item.modulartech.soul_steel_dust": "Soul Steel Dust",
+
+  "item.modulartech.redstone_piece": "Piece of Redstone Dust",
+  "item.modulartech.glowstone_dust_piece": "Piece of Glowstone Dust",
+
+  "item.modulartech.coal_dust_piece": "Piece of Coal Dust",
+  "item.modulartech.charcoal_dust_piece": "Piece of Charcoal Dust",
+  "item.modulartech.iron_dust_piece": "Piece of Iron Dust",
+  "item.modulartech.copper_dust_piece": "Piece of Copper Dust",
+  "item.modulartech.gold_dust_piece": "Piece of Gold Dust",
+  "item.modulartech.netherite_dust_piece": "Piece of Netherite Dust",
+  "item.modulartech.emerald_dust_piece": "Piece of Emerald Dust",
+  "item.modulartech.lapis_dust_piece": "Piece of Lapis Dust",
+  "item.modulartech.diamond_dust_piece": "Piece of Diamond Dust",
+  "item.modulartech.soul_steel_dust_piece": "Piece of Soul Steel Dust",
+
+  "block.modulartech.soul_steel_block": "Block of Soul Steel",
+
+  "creativetab.modulartech_tab": "Modular Tech"
+}

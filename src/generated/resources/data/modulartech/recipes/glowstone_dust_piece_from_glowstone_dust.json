@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/glowstone"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "modulartech:glowstone_dust_piece"
+  }
+}

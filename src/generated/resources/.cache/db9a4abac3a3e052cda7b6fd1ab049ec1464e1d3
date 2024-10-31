@@ -1,0 +1,5 @@
+// 1.20.1	2024-10-07T16:35:00.3309826	Tags for minecraft:block mod id modulartech
+b6693cb26cc9ad2c5269b7ea93a9f2ca41290bb0 data/forge/tags/blocks/storage_blocks.json
+b6693cb26cc9ad2c5269b7ea93a9f2ca41290bb0 data/forge/tags/blocks/storage_blocks/soul_steel.json
+b6693cb26cc9ad2c5269b7ea93a9f2ca41290bb0 data/minecraft/tags/blocks/mineable/pickaxe.json
+b6693cb26cc9ad2c5269b7ea93a9f2ca41290bb0 data/minecraft/tags/blocks/needs_stone_tool.json

@@ -1,0 +1,18 @@
+// 1.20.1	2024-10-07T16:35:00.3329831	Tags for minecraft:item mod id modulartech
+ae5ff7fbd8ba97fcdc2e2907001c951a3683c375 data/forge/tags/items/dusts.json
+e42e270e930129d4ab313dfe1a77d9a96bcb13d2 data/forge/tags/items/dusts/charcoal.json
+6798047514cf8c73318c2a4ae5d57b91b2ce161c data/forge/tags/items/dusts/coal.json
+05dc5bd360a2225279fd157b82abcd60a56244a6 data/forge/tags/items/dusts/copper.json
+b82e17bfd89c48375c58d20be2bd5122cedd65f6 data/forge/tags/items/dusts/diamond.json
+88d6de1ea57c922dca372c557a89d972e20fb370 data/forge/tags/items/dusts/emerald.json
+c853872291524c33310889a47c8ab89c881ab7b0 data/forge/tags/items/dusts/gold.json
+08c8860559613522b4ff9211c803673d43e9cc9b data/forge/tags/items/dusts/iron.json
+ea90805cbb07860ad2a2d8cd4c8a2b8dd26cd06f data/forge/tags/items/dusts/lapis.json
+1569e4cf628e2471767b841606ead8b797b87a97 data/forge/tags/items/dusts/netherite.json
+650e1bcb129c6659cbd99e0e17cde33d9c5a1c7e data/forge/tags/items/dusts/soul_steel.json
+1038c4fdc0ed3eab2f6ff294ccf41267d887fb8b data/forge/tags/items/ingots.json
+1038c4fdc0ed3eab2f6ff294ccf41267d887fb8b data/forge/tags/items/ingots/soul_steel.json
+e11f5874f288aa8a17677713f24b3c1993c7a21c data/forge/tags/items/nuggets.json
+e11f5874f288aa8a17677713f24b3c1993c7a21c data/forge/tags/items/nuggets/soul_steel.json
+b6693cb26cc9ad2c5269b7ea93a9f2ca41290bb0 data/forge/tags/items/storage_blocks.json
+b6693cb26cc9ad2c5269b7ea93a9f2ca41290bb0 data/forge/tags/items/storage_blocks/soul_steel.json

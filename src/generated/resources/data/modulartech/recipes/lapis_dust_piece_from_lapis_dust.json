@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/lapis"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "modulartech:lapis_dust_piece"
+  }
+}

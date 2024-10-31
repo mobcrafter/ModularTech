@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "modulartech:powdered_ancient_debris"
+    },
+    {
+      "item": "modulartech:powdered_ancient_debris"
+    },
+    {
+      "item": "modulartech:powdered_ancient_debris"
+    },
+    {
+      "item": "modulartech:powdered_ancient_debris"
+    },
+    {
+      "item": "modulartech:gold_dust"
+    },
+    {
+      "item": "modulartech:gold_dust"
+    },
+    {
+      "item": "modulartech:gold_dust"
+    },
+    {
+      "item": "modulartech:gold_dust"
+    }
+  ],
+  "result": {
+    "item": "modulartech:netherite_dust"
+  }
+}

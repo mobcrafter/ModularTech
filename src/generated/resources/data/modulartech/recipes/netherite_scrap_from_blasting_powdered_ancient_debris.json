@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "group": "netherite_scrap",
+  "ingredient": {
+    "item": "modulartech:powdered_ancient_debris"
+  },
+  "result": "minecraft:netherite_scrap"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.0,
+  "group": "soul_steel_ingot",
+  "ingredient": {
+    "item": "modulartech:soul_steel_dust"
+  },
+  "result": "modulartech:soul_steel_ingot"
+}

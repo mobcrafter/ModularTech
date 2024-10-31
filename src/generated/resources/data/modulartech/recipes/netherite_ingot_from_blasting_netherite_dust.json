@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "group": "netherite_ingot",
+  "ingredient": {
+    "item": "modulartech:netherite_dust"
+  },
+  "result": "minecraft:netherite_ingot"
+}

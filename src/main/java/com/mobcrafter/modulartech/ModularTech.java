@@ -1,5 +1,8 @@
 package com.mobcrafter.modulartech;
 
+import com.mobcrafter.modulartech.block.ModBlocks;
+import com.mobcrafter.modulartech.item.ModCreativeModeTabs;
+import com.mobcrafter.modulartech.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -28,6 +31,11 @@ public class ModularTech
         modEventBus.addListener(this::commonSetup);
 
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 

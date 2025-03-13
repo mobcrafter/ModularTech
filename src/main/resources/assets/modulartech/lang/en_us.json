@@ -1,0 +1,16 @@
+{
+  "item.modulartech.steel_ingot": "Steel Ingot",
+  
+  "item.modulartech.granola_bar": "Granola Bar",
+  
+  "item.modulartech.coal_dust": "Coal Dust",
+  "item.modulartech.coal_dust_tiny": "Tiny Pile of Coal Dust",
+  "item.modulartech.charcoal_dust": "Charcoal Dust",
+  "item.modulartech.charcoal_dust_tiny": "Tiny Pile of Charcoal Dust",
+
+
+  "block.modulartech.steel_block": "Block of Steel",
+
+
+  "creativetab.modulartech.modulartech_items": "Modular Tech"
+}

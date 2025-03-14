@@ -1,0 +1,3 @@
+// 1.21.1	2025-03-12T21:47:29.9110722	Tags for minecraft:block mod id modulartech
+f880524cd675d590ee6845972ce176bb2eab2a69 data/minecraft/tags/block/mineable/pickaxe.json
+f880524cd675d590ee6845972ce176bb2eab2a69 data/minecraft/tags/block/needs_stone_tool.json

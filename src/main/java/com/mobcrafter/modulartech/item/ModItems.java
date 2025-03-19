@@ -17,17 +17,23 @@ public class ModItems {
 
     public static final DeferredItem<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
             () -> new Item(new Item.Properties()));;
+    public static final DeferredItem<Item> STEEL_NUGGET = ITEMS.register("steel_nugget",
+            () -> new Item(new Item.Properties()));;
 
     public static final DeferredItem<Item> GRANOLA_BAR = ITEMS.register("granola_bar",
             () -> new Item(new Item.Properties().food(ModFoodProperties.GRANOLA_BAR)));
 
+    public static final DeferredItem<Item> STEEL_DUST = ITEMS.register("steel_dust",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_TINY_DUST = ITEMS.register("steel_tiny_dust",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> COAL_DUST = ITEMS.register("coal_dust",
             () -> new FuelItem(new Item.Properties(), 1000));
-    public static final DeferredItem<Item> COAL_DUST_TINY = ITEMS.register("coal_dust_tiny",
+    public static final DeferredItem<Item> COAL_TINY_DUST = ITEMS.register("coal_tiny_dust",
             () -> new FuelItem(new Item.Properties(), 100));
     public static final DeferredItem<Item> CHARCOAL_DUST = ITEMS.register("charcoal_dust",
             () -> new FuelItem(new Item.Properties(), 1000));
-    public static final DeferredItem<Item> CHARCOAL_DUST_TINY = ITEMS.register("charcoal_dust_tiny",
+    public static final DeferredItem<Item> CHARCOAL_TINY_DUST = ITEMS.register("charcoal_tiny_dust",
             () -> new FuelItem(new Item.Properties(), 100));
 
 

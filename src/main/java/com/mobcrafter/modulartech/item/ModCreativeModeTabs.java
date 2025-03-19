@@ -23,13 +23,16 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.STEEL_BLOCK);
 
                         output.accept(ModItems.STEEL_INGOT);
+                        output.accept(ModItems.STEEL_NUGGET);
 
                         output.accept(ModItems.GRANOLA_BAR);
 
+                        output.accept(ModItems.STEEL_DUST);
+                        output.accept(ModItems.STEEL_TINY_DUST);
                         output.accept(ModItems.COAL_DUST);
-                        output.accept(ModItems.COAL_DUST_TINY);
+                        output.accept(ModItems.COAL_TINY_DUST);
                         output.accept(ModItems.CHARCOAL_DUST);
-                        output.accept(ModItems.CHARCOAL_DUST_TINY);
+                        output.accept(ModItems.CHARCOAL_TINY_DUST);
                     }).build());
 
 

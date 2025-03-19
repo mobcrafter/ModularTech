@@ -14,12 +14,15 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItems.STEEL_INGOT.get());
+        basicItem(ModItems.STEEL_NUGGET.get());
 
         basicItem(ModItems.GRANOLA_BAR.get());
 
+        basicItem(ModItems.STEEL_DUST.get());
+        basicItem(ModItems.STEEL_TINY_DUST.get());
         basicItem(ModItems.COAL_DUST.get());
-        basicItem(ModItems.COAL_DUST_TINY.get());
+        basicItem(ModItems.COAL_TINY_DUST.get());
         basicItem(ModItems.CHARCOAL_DUST.get());
-        basicItem(ModItems.CHARCOAL_DUST_TINY.get());
+        basicItem(ModItems.CHARCOAL_TINY_DUST.get());
     }
 }

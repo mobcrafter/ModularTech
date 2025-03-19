@@ -18,8 +18,8 @@ public class ModDataMapProvider extends DataMapProvider {
     protected void gather() {
         this.builder(NeoForgeDataMaps.FURNACE_FUELS)
                 .add(ModItems.COAL_DUST.getId(), new FurnaceFuel(1000), false)
-                .add(ModItems.COAL_DUST_TINY.getId(), new FurnaceFuel(100), false)
+                .add(ModItems.COAL_TINY_DUST.getId(), new FurnaceFuel(100), false)
                 .add(ModItems.CHARCOAL_DUST.getId(), new FurnaceFuel(1000), false)
-                .add(ModItems.CHARCOAL_DUST_TINY.getId(), new FurnaceFuel(100), false);
+                .add(ModItems.CHARCOAL_TINY_DUST.getId(), new FurnaceFuel(100), false);
     }
 }

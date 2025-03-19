@@ -11,6 +11,7 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
+import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 
 import java.util.List;
@@ -24,36 +25,29 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STEEL_BLOCK.get())
-                .pattern("AAA")
-                .pattern("AAA")
-                .pattern("AAA")
-                .define('A', ModItems.STEEL_INGOT.get())
-                .unlockedBy("has_steel_ingot", has(ModItems.STEEL_INGOT)).save(recipeOutput);
+        CompactingTagged(recipeOutput, ModTags.Items.STORAGE_BLOCKS_STEEL, ModBlocks.STEEL_BLOCK.get(), ModTags.Items.INGOTS_STEEL, ModItems.STEEL_INGOT.get());
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.STEEL_INGOT.get(), 9)
-                .requires(ModBlocks.STEEL_BLOCK)
-                .unlockedBy("has_steel_block", has(ModBlocks.STEEL_BLOCK)).save(recipeOutput);
+        CompactingTagged(recipeOutput, ModTags.Items.INGOTS_STEEL, ModItems.STEEL_INGOT.get(), ModTags.Items.NUGGETS_STEEL, ModItems.STEEL_NUGGET.get());
+        CompactingTagged(recipeOutput, ModTags.Items.DUSTS_STEEL, ModItems.STEEL_DUST.get(), ModTags.Items.TINY_DUSTS_STEEL, ModItems.STEEL_TINY_DUST.get());
+
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModTags.Items.DUSTS_STEEL), RecipeCategory.MISC, ModItems.STEEL_INGOT, 0.0f, 200).save(recipeOutput, ModularTech.MODID + ":steel_ingot_from_smelting_dust");
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModTags.Items.TINY_DUSTS_STEEL), RecipeCategory.MISC, ModItems.STEEL_NUGGET, 0.0f, 200).save(recipeOutput, ModularTech.MODID + ":steel_nugget_from_smelting_dust");
+        SimpleCookingRecipeBuilder.blasting(Ingredient.of(ModTags.Items.DUSTS_STEEL), RecipeCategory.MISC, ModItems.STEEL_INGOT, 0.0f, 100).save(recipeOutput, ModularTech.MODID + ":steel_ingot_from_smelting_dust");
+        SimpleCookingRecipeBuilder.blasting(Ingredient.of(ModTags.Items.TINY_DUSTS_STEEL), RecipeCategory.MISC, ModItems.STEEL_NUGGET, 0.0f, 100).save(recipeOutput, ModularTech.MODID + ":steel_nugget_from_smelting_dust");
+
+        Smelting(recipeOutput, Tags.Items.INGOTS_IRON, RecipeCategory.MISC, ModItems.STEEL_INGOT, 0.0f, 200, "steel");
     }
 
-    protected static void Smelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
+    protected static void Smelting(RecipeOutput recipeOutput, ItemLike pItemLike, RecipeCategory pCategory, ItemLike pResult,
                                       float pExperience, int pCookingTIme, String pGroup) {
-        oreCooking(recipeOutput, RecipeSerializer.SMELTING_RECIPE, SmeltingRecipe::new, pIngredients, pCategory, pResult,
+        Cooking(recipeOutput, RecipeSerializer.SMELTING_RECIPE, SmeltingRecipe::new, pItemLike, pCategory, pResult,
                 pExperience, pCookingTIme, pGroup, "_from_smelting");
     }
 
-    protected static void Blasting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
-                                      float pExperience, int pCookingTime, String pGroup) {
-        oreCooking(recipeOutput, RecipeSerializer.BLASTING_RECIPE, BlastingRecipe::new, pIngredients, pCategory, pResult,
-                pExperience, pCookingTime, pGroup, "_from_blasting");
-    }
-
     protected static <T extends AbstractCookingRecipe> void Cooking(RecipeOutput recipeOutput, RecipeSerializer<T> pCookingSerializer, AbstractCookingRecipe.Factory<T> factory,
-                                                                       List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup, String pRecipeName) {
-        for(ItemLike itemlike : pIngredients) {
-            SimpleCookingRecipeBuilder.generic(Ingredient.of(itemlike), pCategory, pResult, pExperience, pCookingTime, pCookingSerializer, factory).group(pGroup).unlockedBy(getHasName(itemlike), has(itemlike))
-                    .save(recipeOutput, ModularTech.MODID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(itemlike));
-        }
+                                                                       ItemLike pItemLike, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup, String pRecipeName) {
+        SimpleCookingRecipeBuilder.generic(Ingredient.of(pItemLike), pCategory, pResult, pExperience, pCookingTime, pCookingSerializer, factory).group(pGroup).unlockedBy(getHasName(pItemLike), has(pItemLike))
+                    .save(recipeOutput, ModularTech.MODID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(pItemLike));
     }
 
     protected static void CompactingTagged(RecipeOutput recipeOutput, TagKey<Item> big_tag, ItemLike big_item, TagKey<Item> small_tag, ItemLike small_item) {

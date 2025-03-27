@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_steel_block": {
+    "has_iron_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "modulartech:steel_block"
+            "items": "minecraft:iron_ingot"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "modulartech:steel_ingot"
+        "recipe": "modulartech:steel_ingot_from_smelting_iron_ingot"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_steel_block"
+      "has_iron_ingot"
     ]
   ],
   "rewards": {
     "recipes": [
-      "modulartech:steel_ingot"
+      "modulartech:steel_ingot_from_smelting_iron_ingot"
     ]
   }
 }

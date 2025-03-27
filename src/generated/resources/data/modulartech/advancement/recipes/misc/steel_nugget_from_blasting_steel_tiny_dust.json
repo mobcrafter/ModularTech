@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_steel_ingot": {
+    "has_steel_tiny_dust": {
       "conditions": {
         "items": [
           {
-            "items": "modulartech:steel_ingot"
+            "items": "modulartech:steel_tiny_dust"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "modulartech:steel_block"
+        "recipe": "modulartech:steel_nugget_from_blasting_steel_tiny_dust"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_steel_ingot"
+      "has_steel_tiny_dust"
     ]
   ],
   "rewards": {
     "recipes": [
-      "modulartech:steel_block"
+      "modulartech:steel_nugget_from_blasting_steel_tiny_dust"
     ]
   }
 }

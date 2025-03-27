@@ -3,13 +3,13 @@
     "modulartech:charcoal_dust": {
       "burn_time": 1000
     },
-    "modulartech:charcoal_dust_tiny": {
+    "modulartech:charcoal_tiny_dust": {
       "burn_time": 100
     },
     "modulartech:coal_dust": {
       "burn_time": 1000
     },
-    "modulartech:coal_dust_tiny": {
+    "modulartech:coal_tiny_dust": {
       "burn_time": 100
     }
   }

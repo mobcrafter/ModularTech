@@ -1,9 +1,10 @@
 {
-  "item.modulartech.steel_ingot": "Tempered Steel",
+  "item.modulartech.steel_ingot": "Tempered Steel Ingot",
+  "item.modulartech.steel_nugget": "Tempered Steel Nugget",
   
   "item.modulartech.granola_bar": "Granola Bar",
 
-  "item.modulartech.steel_dust": "Steel Dust",
+  "item.modulartech.steel_dust": "Tempered Steel Dust",
   "item.modulartech.steel_tiny_dust": "Tiny Pile of Steel Dust",
   "item.modulartech.coal_dust": "Coal Dust",
   "item.modulartech.coal_tiny_dust": "Tiny Pile of Coal Dust",
@@ -11,7 +12,7 @@
   "item.modulartech.charcoal_tiny_dust": "Tiny Pile of Charcoal Dust",
 
 
-  "block.modulartech.steel_block": "Block of Steel",
+  "block.modulartech.steel_block": "Block of Tempered Steel",
 
 
   "creativetab.modulartech.modulartech_items": "Modular Tech"

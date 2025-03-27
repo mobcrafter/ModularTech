@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "modulartech:steel_ingot"
+      "tag": "c:tiny_dusts/steel"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "modulartech:steel_block"
+    "id": "modulartech:steel_dust"
   }
 }

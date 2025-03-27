@@ -1,8 +1,10 @@
 {
   "values": [
+    "modulartech:steel_dust",
+    "modulartech:steel_tiny_dust",
     "modulartech:coal_dust",
-    "modulartech:coal_dust_tiny",
+    "modulartech:coal_tiny_dust",
     "modulartech:charcoal_dust",
-    "modulartech:charcoal_dust_tiny"
+    "modulartech:charcoal_tiny_dust"
   ]
 }

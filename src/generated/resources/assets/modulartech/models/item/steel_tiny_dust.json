@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "modulartech:item/charcoal_dust_tiny"
+    "layer0": "modulartech:item/steel_tiny_dust"
   }
 }

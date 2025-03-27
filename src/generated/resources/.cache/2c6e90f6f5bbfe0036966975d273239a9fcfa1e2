@@ -1,2 +1,10 @@
-// 1.21.1	2025-03-12T21:47:29.9110722	Tags for minecraft:item mod id modulartech
-0dfeb83b3f8be1ea0a3e6c918320acf98af120e9 data/c/tags/item/dusts.json
+// 1.21.1	2025-03-18T21:59:49.6751699	Tags for minecraft:item mod id modulartech
+cb2b9b8698fb0c2e3e85c4aceafe74b5cf4fe03a data/c/tags/item/dusts.json
+7f6d869795ecc3761c684d7181e197b3ecda571a data/c/tags/item/dusts/steel.json
+044cda5dd96a389189645f7e13ee108431812e4d data/c/tags/item/ingots.json
+044cda5dd96a389189645f7e13ee108431812e4d data/c/tags/item/ingots/steel.json
+80f9484ee3d141aa84267ae4f17c832336e76083 data/c/tags/item/nuggets.json
+80f9484ee3d141aa84267ae4f17c832336e76083 data/c/tags/item/nuggets/steel.json
+f880524cd675d590ee6845972ce176bb2eab2a69 data/c/tags/item/storage_blocks.json
+f880524cd675d590ee6845972ce176bb2eab2a69 data/c/tags/item/storage_blocks/steel.json
+889593fd2865c96aa5f01763f28baefb059de0cf data/c/tags/item/tiny_dusts/steel.json

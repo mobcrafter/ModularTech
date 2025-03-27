@@ -46,6 +46,10 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.STEEL_INGOT.get());
         tag(ModTags.Items.NUGGETS_STEEL)
                 .add(ModItems.STEEL_NUGGET.get());
+        tag(ModTags.Items.DUSTS_STEEL)
+                .add(ModItems.STEEL_DUST.get());
+        tag(ModTags.Items.TINY_DUSTS_STEEL)
+                .add(ModItems.STEEL_TINY_DUST.get());
 
     }
 }

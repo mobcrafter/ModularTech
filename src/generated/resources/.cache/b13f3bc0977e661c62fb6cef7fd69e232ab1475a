@@ -1,4 +1,7 @@
-// 1.21.1	2025-03-12T21:47:29.9100718	Block States: modulartech
+// 1.21.1	2025-04-07T21:13:19.2538792	Block States: modulartech
+49b6345a656efffce202952516d714e1b98358d9 assets/modulartech/blockstates/compact_generator.json
 fbfc61836cdb8d7ed074a5618986625e6380aac2 assets/modulartech/blockstates/steel_block.json
+1ba010cca39fc0f506250f9a15e2ddd86613a796 assets/modulartech/models/block/compact_generator.json
 af0b34506e88c43a11dcba16ada0799b1dc6b590 assets/modulartech/models/block/steel_block.json
+c308af465d64d2f45e48839da732aae5825e09cc assets/modulartech/models/item/compact_generator.json
 188fc716aef1e81470afc26a89c3d671b49627b3 assets/modulartech/models/item/steel_block.json

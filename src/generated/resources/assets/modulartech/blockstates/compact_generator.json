@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "modulartech:block/compact_generator"
+    }
+  }
+}

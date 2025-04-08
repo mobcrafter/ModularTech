@@ -1,6 +1,7 @@
 package com.mobcrafter.modulartech;
 
 import com.mobcrafter.modulartech.block.ModBlocks;
+import com.mobcrafter.modulartech.block.entity.ModBlockEntities;
 import com.mobcrafter.modulartech.item.ModCreativeModeTabs;
 import com.mobcrafter.modulartech.item.ModItems;
 import org.slf4j.Logger;
@@ -36,6 +37,7 @@ public class ModularTech
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 

@@ -15,6 +15,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.STEEL_BLOCK);
+        blockWithItem(ModBlocks.COMPACT_GENERATOR);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

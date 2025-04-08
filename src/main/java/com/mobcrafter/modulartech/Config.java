@@ -23,9 +23,9 @@ public class Config
             .comment("Whether to log the dirt block on common setup")
             .define("logDirtBlock", true);
 
-    private static final ModConfigSpec.IntValue MAGIC_NUMBER = BUILDER
-            .comment("A magic number")
-            .defineInRange("magicNumber", 42, 0, Integer.MAX_VALUE);
+    private static final ModConfigSpec.DoubleValue FORGE_ENERGY_TO_JOULES = BUILDER
+            .comment("How many Joules are in one FE.")
+            .defineInRange("forgeEnergyToJoules", 2.5, 0, Double.MAX_VALUE);
 
     public static final ModConfigSpec.ConfigValue<String> MAGIC_NUMBER_INTRODUCTION = BUILDER
             .comment("What you want the introduction message to be for the magic number")
@@ -39,7 +39,7 @@ public class Config
     static final ModConfigSpec SPEC = BUILDER.build();
 
     public static boolean logDirtBlock;
-    public static int magicNumber;
+    public static double forgeEnergyToJoules;
     public static String magicNumberIntroduction;
     public static Set<Item> items;
 
@@ -52,7 +52,7 @@ public class Config
     static void onLoad(final ModConfigEvent event)
     {
         logDirtBlock = LOG_DIRT_BLOCK.get();
-        magicNumber = MAGIC_NUMBER.get();
+        forgeEnergyToJoules = FORGE_ENERGY_TO_JOULES.get();
         magicNumberIntroduction = MAGIC_NUMBER_INTRODUCTION.get();
 
         // convert the list of strings into a set of items

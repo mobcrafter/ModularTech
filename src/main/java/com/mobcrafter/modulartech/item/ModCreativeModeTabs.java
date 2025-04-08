@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.modulartech.modulartech_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.STEEL_BLOCK);
+                        output.accept(ModBlocks.COMPACT_GENERATOR);
 
                         output.accept(ModItems.STEEL_INGOT);
                         output.accept(ModItems.STEEL_NUGGET);
